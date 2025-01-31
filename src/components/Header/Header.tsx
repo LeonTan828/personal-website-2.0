@@ -9,19 +9,21 @@ function Header() {
         <Button
           title='Leon Yee Leong Tan'
         />
-        <Button
-          title='Bio'
-        />
-        <Button
-          title='Career'
-        />
-        <Button
-          title='Interests'
-        />
-        <Button
-          title='Resume'
-        />
-        </div>
+        <div className='navbar'>
+          <Button
+            title='Bio'
+          />
+          <Button
+            title='Career'
+          />
+          <Button
+            title='Interests'
+          />
+          <Button
+            title='Resume'
+          />
+        </div>  
+      </div>
     )
   }
   

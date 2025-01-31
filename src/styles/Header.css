@@ -1,6 +1,11 @@
 .header {
   background-color: aqua; /* TODO: remove when done styling */
 
+  /* Styling */
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 10px;
+
   /* Positioning */
   position: fixed;
   z-index: 1;
@@ -8,8 +13,11 @@
 
   /* Box styling */
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
 }
 
 .button {
