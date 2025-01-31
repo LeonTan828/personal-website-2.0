@@ -9,4 +9,9 @@
   /* Box styling */
   display: flex;
   flex-direction: row;
+  width: 100%;
+}
+
+.button {
+  margin: 20px;
 }

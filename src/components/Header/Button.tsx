@@ -7,7 +7,7 @@ type ButtonProps = {
 function Button({title}: ButtonProps) {
   
   return (
-    <div className="button">
+    <div className='button'>
       {title}
     </div>
   )

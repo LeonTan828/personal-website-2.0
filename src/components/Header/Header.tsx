@@ -5,11 +5,10 @@ import '../../styles/Header.css'
 function Header() {
   
     return (
-      <div className="header">
+      <div className='header'>
         <Button
           title='Leon Yee Leong Tan'
         />
-
         <Button
           title='Bio'
         />
@@ -22,7 +21,7 @@ function Header() {
         <Button
           title='Resume'
         />
-      </div>
+        </div>
     )
   }
   
