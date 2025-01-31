@@ -1,0 +1,12 @@
+.header {
+  background-color: aqua; /* TODO: remove when done styling */
+
+  /* Positioning */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+
+  /* Box styling */
+  display: flex;
+  flex-direction: row;
+}
