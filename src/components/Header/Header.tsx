@@ -1,16 +1,27 @@
+import Button from './Button'
+
 import '../../styles/Header.css'
 
 function Header() {
   
     return (
       <div className="header">
-        <div className="left">
-          Leon Yee Leong Tan
-        </div>
+        <Button
+          title='Leon Yee Leong Tan'
+        />
 
-        <div>Bio</div>
-        <div>Career</div>
-        <div>Interests</div>
+        <Button
+          title='Bio'
+        />
+        <Button
+          title='Career'
+        />
+        <Button
+          title='Interests'
+        />
+        <Button
+          title='Resume'
+        />
       </div>
     )
   }
