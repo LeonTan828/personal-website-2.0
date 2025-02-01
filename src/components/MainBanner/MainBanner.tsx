@@ -1,4 +1,4 @@
-// import '../../styles/MainBanner.css'
+import '../../styles/MainBanner.css';
 
 function MainBanner() {
 
