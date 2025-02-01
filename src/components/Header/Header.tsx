@@ -1,6 +1,6 @@
-import Button from './Button'
+import Button from './Button';
 
-import '../../styles/Header.css'
+import '../../styles/Header.css';
 
 function Header() {
   
@@ -24,7 +24,7 @@ function Header() {
           />
         </div>  
       </div>
-    )
-  }
+    );
+  };
   
-  export default Header
+  export default Header;

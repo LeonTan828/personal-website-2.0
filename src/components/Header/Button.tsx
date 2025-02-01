@@ -1,8 +1,8 @@
-import '../../styles/Header.css'
+import '../../styles/Header.css';
 
 type ButtonProps = {
   title: string;
-}
+};
 
 function Button({title}: ButtonProps) {
   
@@ -10,7 +10,7 @@ function Button({title}: ButtonProps) {
     <div className='button'>
       {title}
     </div>
-  )
-}
+  );
+};
   
-export default Button
+export default Button;
