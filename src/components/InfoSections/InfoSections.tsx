@@ -1,6 +1,6 @@
 import AboutMe from "./sections/AboutMe";
 
-// import '../../styles/MainBanner.css';
+import '../../styles/info_sections/InfoSections.css';
 
 function InfoSections() {
   

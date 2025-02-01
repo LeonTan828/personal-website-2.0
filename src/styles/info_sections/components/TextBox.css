@@ -1,0 +1,13 @@
+.text-box {
+  /* Layout */
+  margin: 20px;
+
+  /* Typography */
+  text-align: left;
+}
+
+.title {
+  /* Typography */
+  font-size: 40px;
+  font-weight: bold;
+}

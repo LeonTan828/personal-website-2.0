@@ -3,7 +3,7 @@ import TextBox from "../components/TextBox";
 
 import placeholder2 from "../../../assets/images/placeholder2.jpg"
 
-// import '../../styles/MainBanner.css';
+import '../../../styles/info_sections/AboutMe.css';
 
 function AboutMe() {
   

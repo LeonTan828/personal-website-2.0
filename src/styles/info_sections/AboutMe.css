@@ -1,0 +1,5 @@
+.about-me {
+  /* Box styling */
+  display: flex;
+  flex-direction: row;
+}

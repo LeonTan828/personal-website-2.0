@@ -1,4 +1,4 @@
-// import '../../styles/MainBanner.css';
+import '../../../styles/info_sections/components/TextBox.css';
 
 type TextBoxProps = {
   title: string;
