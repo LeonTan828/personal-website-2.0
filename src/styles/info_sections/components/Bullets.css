@@ -21,3 +21,13 @@
   /* Positioning */
   text-align: left;  
 }
+
+.bullet-point {
+  /* Typography */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.desc {
+  padding: 0 0 20px 0;
+}

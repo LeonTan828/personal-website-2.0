@@ -34,8 +34,8 @@ function Bullets({title, body}: BulletsProp) {
 function BulletPoint({bulletPoint, desc}: bodyJSON) {
   return (
     <>
-      <div>&#x2022; {bulletPoint}</div>
-      <div>{desc}</div>
+      <div className='bullet-point'>&#x2022; {bulletPoint}</div>
+      <div className='desc'>{desc}</div>
     </>
   );
 }
