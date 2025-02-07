@@ -1,4 +1,4 @@
-// import '../../../styles/info_sections/components/Bullets.css';
+import '../../../styles/info_sections/components/Bullets.css';
 
 type BulletsProp = {
   title: string;
@@ -26,7 +26,7 @@ function Bullets({title, body}: BulletsProp) {
   return (
     <div className='bullets'>
       <div className='title'>{title}</div>
-      <div className='body'>{bulletPoints}</div>
+      <div className='bullets-body'>{bulletPoints}</div>
     </div>
   );
 };

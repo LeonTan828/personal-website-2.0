@@ -1,0 +1,23 @@
+.bullets {
+  /* Layout */
+  margin: 20px;
+
+  /* Box styling */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  /* Typography */
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bullets-body {
+  /* Layout */
+  max-width: 800px;
+
+  /* Positioning */
+  text-align: left;  
+}

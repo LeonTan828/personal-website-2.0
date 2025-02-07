@@ -9,15 +9,15 @@ function Career() {
   const bodyContent = [
     {
       bulletPoint: 'point 1',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus id urna ut tristique. Pellentesque bibendum lorem sed luctus vulputate. Nunc vestibulum eu orci nec mattis. Aenean a cursus lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut et metus mi. Praesent mauris turpis, congue in sem quis, sollicitudin vehicula tellus. ',
     },
     {
       bulletPoint: 'point 2',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus id urna ut tristique. Pellentesque bibendum lorem sed luctus vulputate. Nunc vestibulum eu orci nec mattis. Aenean a cursus lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut et metus mi. Praesent mauris turpis, congue in sem quis, sollicitudin vehicula tellus. ',
     },
     {
       bulletPoint: 'point 3',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus id urna ut tristique. Pellentesque bibendum lorem sed luctus vulputate. Nunc vestibulum eu orci nec mattis. Aenean a cursus lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut et metus mi. Praesent mauris turpis, congue in sem quis, sollicitudin vehicula tellus. ',
     }
   ];
 
