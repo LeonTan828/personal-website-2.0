@@ -4,27 +4,27 @@ import '../../styles/Header.css';
 
 function Header() {
   
-    return (
-      <div className='header'>
+  return (
+    <div className='header'>
+      <Button
+        title='Leon Yee Leong Tan'
+      />
+      <div className='navbar'>
         <Button
-          title='Leon Yee Leong Tan'
+          title='Bio'
         />
-        <div className='navbar'>
-          <Button
-            title='Bio'
-          />
-          <Button
-            title='Career'
-          />
-          <Button
-            title='Interests'
-          />
-          <Button
-            title='Resume'
-          />
-        </div>  
-      </div>
-    );
-  };
+        <Button
+          title='Career'
+        />
+        <Button
+          title='Interests'
+        />
+        <Button
+          title='Resume'
+        />
+      </div>  
+    </div>
+  );
+};
   
-  export default Header;
+export default Header;

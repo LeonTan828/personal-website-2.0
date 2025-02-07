@@ -3,7 +3,7 @@ import '../../../styles/info_sections/components/TextBox.css';
 type TextBoxProps = {
   title: string;
   body: string;
-}
+};
 
 function TextBox({title, body}: TextBoxProps) {
   

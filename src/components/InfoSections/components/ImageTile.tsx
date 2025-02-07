@@ -2,7 +2,7 @@
 
 type ImageTileProps = {
   src: string;
-}
+};
 
 function ImageTile({src}: ImageTileProps) {
   

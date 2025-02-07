@@ -1,7 +1,7 @@
 import ImageTile from "../components/ImageTile";
 import TextBox from "../components/TextBox";
 
-import placeholder2 from "../../../assets/images/placeholder2.jpg"
+import placeholder2 from "../../../assets/images/placeholder2.jpg";
 
 import '../../../styles/info_sections/AboutMe.css';
 
