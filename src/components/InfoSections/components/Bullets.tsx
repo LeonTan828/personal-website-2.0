@@ -1,4 +1,4 @@
-import '../../../styles/info_sections/components/Bullets.css';
+// import '../../../styles/info_sections/components/Bullets.css';
 
 type BulletsProp = {
   title: string;
