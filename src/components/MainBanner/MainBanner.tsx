@@ -8,8 +8,8 @@ function MainBanner() {
   return (
     <div className='main-banner'>
       <div className='title-box'>
-        <div className='title'>{titleText}</div>
-        <div className='subtitle'>{subtitleText}</div>
+        <div className='banner-title'>{titleText}</div>
+        <div className='banner-subtitle'>{subtitleText}</div>
       </div>
     </div>
   );

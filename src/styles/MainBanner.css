@@ -16,13 +16,13 @@
   align-items: flex-start;
 }
 
-.title {
+.banner-title {
   /* Typography */
   font-size: 50px;
   font-weight: bold;
 }
 
-.subtitle {
+.banner-subtitle {
   /* Typography */
   font-size: 25px;
 }
