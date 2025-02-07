@@ -11,20 +11,22 @@ type bodyJSON = {
 };
 
 function Bullets({title, body}: BulletsProp) {
+
+  const bulletPoints = body.map((bulletEntry) => {
+    const { bulletPoint, desc } = bulletEntry;
+
+    return (
+      <BulletPoint
+        bulletPoint={bulletPoint}
+        desc={desc}
+      />
+    );
+  });
   
   return (
     <div className='bullets'>
       <div className='title'>{title}</div>
-      <div className='body'>
-        {body.map((bulletEntry) => {
-          const { bulletPoint, desc } = bulletEntry;
-
-          return <BulletPoint
-                  bulletPoint={bulletPoint}
-                  desc={desc}
-                />;
-        })}
-      </div>
+      <div className='body'>{bulletPoints}</div>
     </div>
   );
 };
