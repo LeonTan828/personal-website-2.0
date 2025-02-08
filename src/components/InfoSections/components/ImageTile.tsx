@@ -1,4 +1,4 @@
-// import '../../styles/MainBanner.css';
+import '../../../styles/info_sections/components/ImageTile.css';
 
 type ImageTileProps = {
   src: string;
