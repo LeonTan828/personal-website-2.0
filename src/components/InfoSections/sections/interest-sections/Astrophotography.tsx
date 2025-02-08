@@ -6,7 +6,7 @@ import placeholder from '../../../../assets/images/placeholder.png';
 import placeholder2 from '../../../../assets/images/placeholder2.jpg';
 import placeholder3 from '../../../../assets/images/placeholder3.jpg';
 
-// import '../../../styles/info_sections/Interests.css';
+import '../../../../styles/info_sections/interest-sections/Astrophotography.css';
 
 function Astrophotography() {
 
@@ -15,7 +15,7 @@ function Astrophotography() {
   
   return (
     <div>
-      <div>
+      <div className='content-row'>
         <ImageTile
           src={placeholder2}
         />
@@ -24,7 +24,7 @@ function Astrophotography() {
           body={bodyContent}
         />
       </div>
-      <div>
+      <div className='content-row'>
         <ImageTile
           src={placeholder}
         />
