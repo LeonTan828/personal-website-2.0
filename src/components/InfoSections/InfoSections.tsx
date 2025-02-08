@@ -1,5 +1,6 @@
 import AboutMe from "./sections/AboutMe";
 import Career from "./sections/Career";
+import Interests from "./sections/Interests";
 
 import '../../styles/info_sections/InfoSections.css';
 
@@ -9,8 +10,7 @@ function InfoSections() {
     <div className='info-section'>
       <AboutMe />
       <Career />
-      <AboutMe />
-      <AboutMe />
+      <Interests />
     </div>
   );
 };
