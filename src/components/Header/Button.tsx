@@ -7,7 +7,7 @@ type ButtonProps = {
 function Button({title}: ButtonProps) {
   
   return (
-    <div className='header-button'>
+    <div className='header-button clickable'>
       {title}
     </div>
   );
