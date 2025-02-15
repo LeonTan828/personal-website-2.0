@@ -3,6 +3,7 @@ import TextBox from "../../components/TextBox";
 
 // TODO: replace
 import placeholder from '../../../../assets/images/placeholder.png';
+import Button from "../../components/Button";
 
 // import '../../../styles/info_sections/Interests.css';
 
@@ -17,10 +18,17 @@ function Movies() {
         <ImageTile
           src={placeholder}
         />
-        <TextBox
-          title={title}
-          body={bodyContent}
-        />
+        <div className='content-column'>
+          <TextBox
+            title={title}
+            body={bodyContent}
+          />
+          <Button
+            title='test'
+            link='fakelink'
+          />
+        </div>
+        
       </div>
       
     </div>
