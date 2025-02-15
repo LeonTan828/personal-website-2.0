@@ -28,9 +28,7 @@ function Movies() {
             link='fakelink'
           />
         </div>
-        
       </div>
-      
     </div>
   );
 };

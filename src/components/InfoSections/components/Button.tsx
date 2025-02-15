@@ -1,4 +1,4 @@
-// import '../../../styles/info_sections/components/ImageTile.css';
+import '../../../styles/info_sections/components/Button.css';
 
 type ButtonProps = {
   title: string;

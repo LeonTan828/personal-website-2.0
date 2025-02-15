@@ -1,0 +1,12 @@
+.button {
+  /* Layout */
+  margin: 20px;
+  padding: 5px 10px;
+
+  /* Color */
+  background-color:lightskyblue;
+
+  /* Typography */
+  font-size: 20px;
+  color: white;
+}
