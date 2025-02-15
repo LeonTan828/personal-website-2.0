@@ -1,6 +1,6 @@
 import Button from './Button';
 
-import '../../styles/Header.css';
+import '../../styles/Footer.css';
 
 function Footer() {
   
