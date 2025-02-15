@@ -24,7 +24,7 @@ function Movies() {
             body={bodyContent}
           />
           <Button
-            title='test'
+            title='Check out my Letterboxd'
             link='fakelink'
           />
         </div>
