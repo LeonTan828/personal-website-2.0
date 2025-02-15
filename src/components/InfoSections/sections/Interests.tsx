@@ -1,4 +1,5 @@
 import Astrophotography from "./interest-sections/Astrophotography";
+import Hiking from "./interest-sections/Hiking";
 import Movies from "./interest-sections/Movies";
 
 // import '../../../styles/info_sections/Interests.css';
@@ -10,6 +11,7 @@ function Interests() {
       <div className='title'>Interests</div>
       <Astrophotography />
       <Movies />
+      <Hiking />
     </div>
   );
 };
