@@ -7,7 +7,7 @@ import '../../../styles/info_sections/Interests.css';
 function Interests() {
   
   return (
-    <div className='interests'>
+    <div className='interests' id='interests'>
       <div className='interest-title'>Interests</div>
       <Astrophotography />
       <Movies />

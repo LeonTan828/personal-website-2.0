@@ -16,9 +16,11 @@ function Header() {
         />
         <Button
           title='Career'
+          link='#career'
         />
         <Button
           title='Interests'
+          link='#interests'
         />
         <Button
           title='Resume'

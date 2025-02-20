@@ -23,7 +23,7 @@ function Career() {
   ];
 
   return (
-    <div className='career'>
+    <div className='career' id='career'>
       <Bullets
         title={title}
         body={bodyContent}
