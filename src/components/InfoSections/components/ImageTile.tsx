@@ -7,7 +7,7 @@ type ImageTileProps = {
 function ImageTile({src}: ImageTileProps) {
   
   return (
-    <div className='image-box'>
+    <div className='image-container'>
       <img
         src={src}
       />
