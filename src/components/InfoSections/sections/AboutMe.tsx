@@ -1,7 +1,7 @@
 import ImageTile from "../components/ImageTile";
 import TextBox from "../components/TextBox";
 
-import placeholder2 from "../../../assets/images/placeholder2.jpg";
+import aboutMe_img from '../../../assets/images/aboutMe.jpg';
 
 import '../../../styles/info_sections/AboutMe.css';
 
@@ -13,7 +13,7 @@ function AboutMe() {
   return (
     <div className='about-me'>
       <ImageTile
-        src={placeholder2}
+        src={aboutMe_img}
       />
       <TextBox
         title={title}
