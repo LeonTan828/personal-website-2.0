@@ -1,6 +1,7 @@
 .text-box {
   /* Layout */
   margin: 20px;
+  width: 500px;
 
   /* Typography */
   text-align: left;
