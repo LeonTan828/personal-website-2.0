@@ -1,5 +1,7 @@
 import Button from './Button';
 
+import resume from '../../assets/documents/Leon\'s Resume.pdf';
+
 import '../../styles/Header.css';
 
 function Header() {
@@ -25,6 +27,7 @@ function Header() {
         />
         <Button
           title='Resume'
+          link={resume}
         />
       </div>  
     </div>
