@@ -1,10 +1,9 @@
 import ImageTile from "../../components/ImageTile";
 import TextBox from "../../components/TextBox";
 
-// TODO: replace
-import placeholder from '../../../../assets/images/placeholder.png';
-import placeholder2 from '../../../../assets/images/placeholder2.jpg';
-import placeholder3 from '../../../../assets/images/placeholder3.jpg';
+import astrophotography_img_1 from '../../../../assets/images/astrophotography1.png';
+import astrophotography_img_2 from '../../../../assets/images/astrophotography2.png';
+import astrophotography_img_3 from '../../../../assets/images/astrophotography3.png';
 
 import '../../../../styles/info_sections/interest-sections/Astrophotography.css';
 
@@ -17,7 +16,7 @@ function Astrophotography() {
     <div>
       <div className='content-row'>
         <ImageTile
-          src={placeholder2}
+          src={astrophotography_img_1}
         />
         <TextBox
           title={title}
@@ -26,10 +25,10 @@ function Astrophotography() {
       </div>
       <div className='content-row'>
         <ImageTile
-          src={placeholder}
+          src={astrophotography_img_2}
         />
         <ImageTile
-          src={placeholder3}
+          src={astrophotography_img_3}
         />
       </div>
     </div>

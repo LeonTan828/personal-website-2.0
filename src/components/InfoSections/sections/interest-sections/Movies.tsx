@@ -1,8 +1,8 @@
 import ImageTile from "../../components/ImageTile";
 import TextBox from "../../components/TextBox";
 
-// TODO: replace
-import placeholder from '../../../../assets/images/placeholder.png';
+import letterboxd_img from '../../../../assets/images/letterboxd.png';
+
 import Button from "../../components/Button";
 
 // import '../../../styles/info_sections/Interests.css';
@@ -16,7 +16,7 @@ function Movies() {
     <div>
       <div className='content-row'>
         <ImageTile
-          src={placeholder}
+          src={letterboxd_img}
         />
         <div className='content-column'>
           <TextBox
