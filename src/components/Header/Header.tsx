@@ -28,6 +28,7 @@ function Header() {
         <Button
           title='Resume'
           link={resume}
+          openOnNewTab
         />
       </div>  
     </div>
