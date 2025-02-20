@@ -1,6 +1,8 @@
 import Bullets from "../components/Bullets";
 import Button from "../components/Button";
 
+import resume from '../../../assets/documents/Leon\'s Resume.pdf';
+
 import '../../../styles/info_sections/Career.css';
 
 function Career() {
@@ -30,7 +32,8 @@ function Career() {
       />
       <Button
         title='resume'
-        link='placeholder link'
+        link={resume}
+        openOnNewTab
       />
     </div>
   );
