@@ -11,7 +11,7 @@ function Header() {
       />
       <div className='navbar'>
         <Button
-          title='Bio'
+          title='About Me'
         />
         <Button
           title='Career'
