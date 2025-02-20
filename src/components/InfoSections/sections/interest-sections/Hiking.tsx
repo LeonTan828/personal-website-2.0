@@ -1,10 +1,9 @@
 import ImageTile from "../../components/ImageTile";
 import TextBox from "../../components/TextBox";
 
-// TODO: replace
-import placeholder from '../../../../assets/images/placeholder.png';
-import placeholder2 from '../../../../assets/images/placeholder2.jpg';
-import placeholder3 from '../../../../assets/images/placeholder3.jpg';
+import hiking_img_1 from '../../../../assets/images/hiking1.jpeg';
+import hiking_img_2 from '../../../../assets/images/hiking2.jpeg';
+import hiking_img_3 from '../../../../assets/images/hiking3.jpeg';
 
 // import '../../../styles/info_sections/Interests.css';
 
@@ -17,7 +16,7 @@ function Hiking() {
     <div>
       <div className='content-row'>
         <ImageTile
-          src={placeholder2}
+          src={hiking_img_1}
         />
         <TextBox
           title={title}
@@ -26,11 +25,12 @@ function Hiking() {
       </div>
       <div className='content-row'>
         <ImageTile
-          src={placeholder}
+          src={hiking_img_2}
         />
         <ImageTile
-          src={placeholder3}
+          src={hiking_img_3}
         />
+
       </div>
     </div>
   );
