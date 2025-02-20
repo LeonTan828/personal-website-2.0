@@ -1,4 +1,8 @@
 .career {
+  /* Layout */
+  padding: 40px 0 0 0;
+  
+  /* Box styling */
   display: flex;
   flex-direction: column;
   align-items: center;
