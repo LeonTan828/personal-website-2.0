@@ -2,14 +2,16 @@ import '../../styles/Header.css';
 
 type ButtonProps = {
   title: string;
+  link: string;
 };
 
-function Button({title}: ButtonProps) {
+// TODO: use React Router instead
+function Button({title, link}: ButtonProps) {
   
   return (
-    <div className='header-button clickable'>
+    <a className='header-button clickable' href={link}>
       {title}
-    </div>
+    </a>
   );
 };
   

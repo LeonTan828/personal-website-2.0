@@ -12,6 +12,7 @@ function Header() {
       <div className='navbar'>
         <Button
           title='About Me'
+          link='#about-me'
         />
         <Button
           title='Career'
