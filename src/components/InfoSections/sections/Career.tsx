@@ -1,6 +1,7 @@
 import Bullets from "../components/Bullets";
+import Button from "../components/Button";
 
-// import '../../../styles/info_sections/Career.css';
+import '../../../styles/info_sections/Career.css';
 
 function Career() {
   
@@ -26,6 +27,10 @@ function Career() {
       <Bullets
         title={title}
         body={bodyContent}
+      />
+      <Button
+        title='resume'
+        link='placeholder link'
       />
     </div>
   );

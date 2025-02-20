@@ -1,6 +1,6 @@
 .bullets {
   /* Layout */
-  margin: 20px;
+  margin: 20px 0 0 0;
 
   /* Box styling */
   display: flex;
