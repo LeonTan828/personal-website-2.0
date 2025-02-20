@@ -1,5 +1,6 @@
 .header {
-  background-color: aqua; /* TODO: remove when done styling */
+  /* Color */
+  background-color: #222831;
 
   /* Layout */
   box-sizing: border-box;
