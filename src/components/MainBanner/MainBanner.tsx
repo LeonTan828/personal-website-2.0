@@ -6,7 +6,7 @@ function MainBanner() {
   const subtitleText = `Lorem Ipsum`;
   
   return (
-    <div className='main-banner'>
+    <div className='main-banner' id='page-top'>
       <div className='title-box'>
         <div className='banner-title'>{titleText}</div>
         <div className='banner-subtitle'>{subtitleText}</div>

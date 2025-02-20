@@ -8,6 +8,7 @@ function Header() {
     <div className='header'>
       <Button
         title='Leon Yee Leong Tan'
+        link='#page-top'
       />
       <div className='navbar'>
         <Button
