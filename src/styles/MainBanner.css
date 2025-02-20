@@ -1,10 +1,8 @@
 .main-banner {
-  background-image: url('../assets/images/placeholder.png'); /* TODO: edit when done styling */
-
   /* Layout */
   box-sizing: border-box;
   width: 100%;
-  height: 400px;
+  height: 300px;
   margin: 64px 0 0 0;
   padding: 100px 70px;
 }
@@ -14,6 +12,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  /* Typography */
+  text-align: left;
 }
 
 .banner-title {
