@@ -17,9 +17,10 @@
 .bullets-body {
   /* Layout */
   max-width: 800px;
+  margin: 20px 0 0 0;
 
   /* Positioning */
-  text-align: left;  
+  text-align: left;
 }
 
 .bullet-point {
@@ -29,5 +30,9 @@
 }
 
 .desc {
-  padding: 0 0 20px 0;
+  /* Layout */
+  padding: 0 0 40px 14px;
+
+  /* Typography */
+  white-space: pre-line;
 }
