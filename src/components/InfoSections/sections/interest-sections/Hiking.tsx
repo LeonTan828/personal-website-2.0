@@ -13,13 +13,13 @@ function Hiking() {
   const bodyContent =
   `I love the outdoor nature and it's one of the main reason why I chose to move\
   to Colorado when I had the opportunity to do so. Every year, especially during summer and\
-  fall season, I'd look for hiking trails and try to go for a hike if I can.\
-  I also love visiting the National Parks, and I hope to be able to visit as many of them\
-  as I can.
+  fall season, I'd look for hiking trails and try to go for a hike whenever I can.\
+  I also love visiting the National Parks, and I hope to be able to visit as many of\
+  them as possible.
   `;
 
   return (
-    <div>
+    <div className='interest-subsection'>
       <div className='content-row'>
         <ImageTile
           src={hiking_img_1}

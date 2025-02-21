@@ -20,7 +20,7 @@ function Astrophotography() {
   `;
 
   return (
-    <div>
+    <div className='interest-subsection'>
       <div className='content-row'>
         <ImageTile
           src={astrophotography_img_1}

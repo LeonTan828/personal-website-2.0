@@ -19,7 +19,7 @@ function Movies() {
   const letterboxdProfile = 'https://letterboxd.com/RogueRebel7/';
 
   return (
-    <div>
+    <div className='interest-subsection'>
       <div className='content-row'>
         <ImageTile
           src={letterboxd_img}
