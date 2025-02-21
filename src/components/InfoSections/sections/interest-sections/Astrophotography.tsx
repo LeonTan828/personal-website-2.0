@@ -10,8 +10,15 @@ import '../../../../styles/info_sections/interest-sections/Astrophotography.css'
 function Astrophotography() {
 
   const title = 'Astrophotography';
-  const bodyContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
-  
+  const bodyContent =
+  `I've always had a huge fascination towards space and astronomy.\
+  Whenever the opportunity arises, I'd try to make an effort to get out there to\
+  observe some of the celestial events available. Over time, I started learning how to capture\
+  these phenomena on camera, which has allowed me to share my experience with other people.\
+  I also count myself as very lucky to have been able to observe and capture some of the rarer\
+  phenomena like aurora and solar eclipse!
+  `;
+
   return (
     <div>
       <div className='content-row'>
