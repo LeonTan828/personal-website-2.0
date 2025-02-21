@@ -9,8 +9,13 @@ import letterboxd_img from '../../../../assets/images/letterboxd.png';
 function Movies() {
   
   const title = 'Movies';
-  const bodyContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
-  
+  const bodyContent = 
+  `When I'm staying indoor at my home, my favorite pastime activity is to watch movies.\
+  Having grown up in a multi-cultural country, I was fortunate enough to be exposed to\
+  a huge variety of movies produced by various different countries and cultural background.\
+  If you are interested to learn more, feel free to check out my Letterboxd account!
+  `;
+
   const letterboxdProfile = 'https://letterboxd.com/RogueRebel7/';
 
   return (
