@@ -2,8 +2,8 @@ import '../../styles/MainBanner.css';
 
 function MainBanner() {
 
-  const titleText = `Hi, my name is Leon. Welcome to my personal website!`;
-  const subtitleText = `Lorem Ipsum`;
+  const titleText = `Hi, my name is Leon`;
+  const subtitleText = `Welcome to my personal website!`;
   
   return (
     <div className='main-banner' id='page-top'>
