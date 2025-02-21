@@ -10,7 +10,13 @@ import hiking_img_3 from '../../../../assets/images/hiking3.jpeg';
 function Hiking() {
   
   const title = 'Hiking';
-  const bodyContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
+  const bodyContent =
+  `I love the outdoor nature and it's one of the main reason why I chose to move\
+  to Colorado when I had the opportunity to do so. Every year, especially during summer and\
+  fall season, I'd look for hiking trails and try to go for a hike if I can.\
+  I also love visiting the National Parks, and I hope to be able to visit as many of them\
+  as I can.
+  `;
 
   return (
     <div>
