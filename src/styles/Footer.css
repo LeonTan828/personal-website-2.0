@@ -1,13 +1,19 @@
 .footer {
   /* Layout */
-  padding: 20px 20%;
+  padding: 20px 15%;
 
   /* Box styling */
   display: flex;
-  flex-direction: column;
-  align-items: end;
+  justify-content: space-between;
 
   /* Color */
   background-color: #222831;
   color: white;
+}
+
+.right-footer {
+  /* Box styling */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
