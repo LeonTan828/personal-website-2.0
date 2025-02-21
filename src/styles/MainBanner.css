@@ -1,0 +1,28 @@
+.main-banner {
+  /* Layout */
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  padding: 164px 200px;
+}
+
+.title-box {
+  /* Box Styling */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  /* Typography */
+  text-align: left;
+}
+
+.banner-title {
+  /* Typography */
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner-subtitle {
+  /* Typography */
+  font-size: 25px;
+}

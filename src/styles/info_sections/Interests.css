@@ -1,0 +1,12 @@
+.interest-title {
+  /* Layout */
+  padding: 50px 0 10px 0;
+  
+  /* Typography */
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.interest-subsection {
+  padding: 40px;
+}

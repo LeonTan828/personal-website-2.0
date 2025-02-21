@@ -1,0 +1,18 @@
+.text-box {
+  /* Layout */
+  margin: 20px;
+  width: 500px;
+
+  /* Typography */
+  text-align: left;
+}
+
+.title {
+  /* Typography */
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.body {
+  white-space: pre-line;
+}
