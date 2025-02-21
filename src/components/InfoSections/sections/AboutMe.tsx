@@ -8,7 +8,13 @@ import '../../../styles/info_sections/AboutMe.css';
 function AboutMe() {
   
   const title = 'About Me';
-  const bodyContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
+  const bodyContent =
+  `I was born and raised in Kuala Lumpur, Malaysia, and spent the first 19 years of my life there.
+  
+  In 2015, I came to the United States to pursue my undergraduate degree. I enrolled into\
+  University of Wisconsin - Madison, and graduated in 2019 with a B.S. in Biology and\
+  Computer Science. I then moved to Denver in 2022, and have been living here ever since.
+  `;
 
   return (
     <div className='about-me' id='about-me'>

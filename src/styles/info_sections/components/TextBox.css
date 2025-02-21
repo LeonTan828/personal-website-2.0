@@ -12,3 +12,7 @@
   font-size: 40px;
   font-weight: bold;
 }
+
+.body {
+  white-space: pre-line;
+}
